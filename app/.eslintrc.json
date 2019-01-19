@@ -1,0 +1,34 @@
+{
+  "extends": ["airbnb", "plugin:prettier/recommended", "prettier/react"],
+  "plugins": ["prettier"],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "mocha": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "react/require-default-props": 0,
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "no-param-reassign": [
+      2,
+      {
+        "props": false
+      }
+    ],
+    "react/jsx-filename-extension": [
+      0
+    ],
+    "react/prefer-stateless-function": [
+      0,
+      {
+        "ignorePureComponents": true
+      }
+    ]
+  }
+}
