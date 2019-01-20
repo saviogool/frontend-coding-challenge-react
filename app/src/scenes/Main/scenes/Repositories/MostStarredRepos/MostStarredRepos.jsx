@@ -12,6 +12,9 @@ const getReposStore = state => state.main.repos;
 function mapStateToProps(state) {
     return {
         mostStarredRepos: getReposStore(state).mostStarredRepos,
+        hasMore: getReposStore(state).hasMore,
+        hasError: getReposStore(state).hasError,
+        nextPage: getReposStore(state).nextPage,
     };
 }
 const mapDispatchToProps = {

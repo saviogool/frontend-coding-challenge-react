@@ -1,0 +1,13 @@
+.repos-row-body-footer {
+    padding-top: 10px;
+}
+
+.repos-row-body-footer-box {
+    border: 1px solid #dddddd;
+    padding: 2px;
+}
+
+.repos-row-body-footer-signature{
+    padding-top:5px;
+    font-style: italic;
+}

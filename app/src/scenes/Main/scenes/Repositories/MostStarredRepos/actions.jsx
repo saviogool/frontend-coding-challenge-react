@@ -15,6 +15,7 @@ function getMostStarredRepos(options = {}) {
                 sort: 'stars',
                 order: 'desc',
             }),
+            meta: { nextPage: options.page + 1 },
         });
 }
 
